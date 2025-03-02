@@ -185,36 +185,12 @@
                       <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,2245.6" sap2010:WorkflowViewState.IdRef="Sequence_6">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:String" Default="[CurrentRow(&quot;Nombres&quot;).ToString()]" Name="Nombres" />
-                          <Variable x:TypeArguments="x:String" Name="Apellidos">
-                            <Variable.Default>
-                              <VisualBasicValue x:TypeArguments="x:String" ExpressionText="CurrentRow(&quot;Apellidos&quot;).ToString()" />
-                            </Variable.Default>
-                          </Variable>
-                          <Variable x:TypeArguments="x:String" Name="Empresa">
-                            <Variable.Default>
-                              <VisualBasicValue x:TypeArguments="x:String" ExpressionText="CurrentRow(&quot;Empresa&quot;).ToString()" />
-                            </Variable.Default>
-                          </Variable>
-                          <Variable x:TypeArguments="x:String" Name="Numero">
-                            <Variable.Default>
-                              <VisualBasicValue x:TypeArguments="x:String" ExpressionText="CurrentRow(&quot;Numero&quot;).ToString()" />
-                            </Variable.Default>
-                          </Variable>
-                          <Variable x:TypeArguments="x:String" Name="Email">
-                            <Variable.Default>
-                              <VisualBasicValue x:TypeArguments="x:String" ExpressionText="CurrentRow(&quot;Email&quot;).ToString()" />
-                            </Variable.Default>
-                          </Variable>
-                          <Variable x:TypeArguments="x:String" Name="Pais">
-                            <Variable.Default>
-                              <VisualBasicValue x:TypeArguments="x:String" ExpressionText="CurrentRow(&quot;Pais&quot;).ToString()" />
-                            </Variable.Default>
-                          </Variable>
-                          <Variable x:TypeArguments="x:String" Name="Web">
-                            <Variable.Default>
-                              <VisualBasicValue x:TypeArguments="x:String" ExpressionText="CurrentRow(&quot;Web&quot;).ToString()" />
-                            </Variable.Default>
-                          </Variable>
+                          <Variable x:TypeArguments="x:String" Default="[CurrentRow(&quot;Apellidos&quot;).ToString()]" Name="Apellidos" />
+                          <Variable x:TypeArguments="x:String" Default="[CurrentRow(&quot;Empresa&quot;).ToString()]" Name="Empresa" />
+                          <Variable x:TypeArguments="x:String" Default="[CurrentRow(&quot;Numero&quot;).ToString()]" Name="Numero" />
+                          <Variable x:TypeArguments="x:String" Default="[CurrentRow(&quot;Email&quot;).ToString()]" Name="Email" />
+                          <Variable x:TypeArguments="x:String" Default="[CurrentRow(&quot;Pais&quot;).ToString()]" Name="Pais" />
+                          <Variable x:TypeArguments="x:String" Default="[CurrentRow(&quot;Web&quot;).ToString()]" Name="Web" />
                         </Sequence.Variables>
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -336,7 +312,7 @@
                   </ui:ForEachRow.Body>
                 </ui:ForEachRow>
               </Sequence>
-              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="451.2,110.4" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Se termino&quot;]" />
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="451.2,110.4" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Fin del Proceso&quot;]" />
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
