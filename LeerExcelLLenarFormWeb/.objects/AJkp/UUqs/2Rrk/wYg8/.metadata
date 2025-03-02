@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'Iniciar Reto'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "wYg86aVmQ0a0k8iZXoC9cw",
+  "Reference": "tfzPzZfH7k-21CsgQze4bw/wYg86aVmQ0a0k8iZXoC9cw",
+  "ParentRef": "tfzPzZfH7k-21CsgQze4bw/2Rrk-8rWNEKiVBbGGpX9_g",
+  "Created": "2025-03-02T17:42:20.5319533Z",
+  "Updated": "2025-03-02T17:42:20.5319533Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SiRZcAtvSUq4JymAFfm1zQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="arenarpa.com/crazy-form" CVScreenId="52d36e79-2752-47bd-b5cc-40b7a035585d" DesignTimeRectangle="682, 595, 553, 47" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='empresa' tag='INPUT' /&gt;" Guid="2a7a9d59-23b8-4c97-8339-2080f053d764" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ArenaRPA' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e491444dd3ed597ad34b7f0d4e3cf401.png" xmlns="">0th19jIbRPkudIefKOOlWpg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
